@@ -1,0 +1,20 @@
+m_syswrap/libcoregrind_arm_darwin_a-syscall-arm-darwin.o: \
+  m_syswrap/syscall-arm-darwin.S pub_core_basics_asm.h \
+  ../include/pub_tool_basics_asm.h ../config.h pub_core_vkiscnums_asm.h \
+  ../include/pub_tool_vkiscnums_asm.h \
+  ../include/vki/vki-scnums-arm-darwin.h \
+  ../VEX/pub/libvex_guest_offsets.h
+
+pub_core_basics_asm.h:
+
+../include/pub_tool_basics_asm.h:
+
+../config.h:
+
+pub_core_vkiscnums_asm.h:
+
+../include/pub_tool_vkiscnums_asm.h:
+
+../include/vki/vki-scnums-arm-darwin.h:
+
+../VEX/pub/libvex_guest_offsets.h:

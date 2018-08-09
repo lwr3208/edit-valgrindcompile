@@ -1,0 +1,16 @@
+prefix=/Users/lee/Desktop/NSR/DBI/installed
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include/valgrind
+arch=arm
+os=darwin
+platform=arm-darwin
+valt_load_address=0x14000000
+
+Name: Valgrind
+Description: A dynamic binary instrumentation framework
+Version: 3.11.0.SVN
+Requires:
+Libs: -L${libdir}/valgrind -lcoregrind-arm-darwin -lvex-arm-darwin -lgcc
+Cflags: -I${includedir}
+

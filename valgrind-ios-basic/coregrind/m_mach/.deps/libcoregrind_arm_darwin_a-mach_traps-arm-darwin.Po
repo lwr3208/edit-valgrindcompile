@@ -1,0 +1,12 @@
+m_mach/libcoregrind_arm_darwin_a-mach_traps-arm-darwin.o: \
+  m_mach/mach_traps-arm-darwin.S pub_core_vkiscnums_asm.h \
+  ../include/pub_tool_vkiscnums_asm.h \
+  ../include/vki/vki-scnums-arm-darwin.h ../config.h
+
+pub_core_vkiscnums_asm.h:
+
+../include/pub_tool_vkiscnums_asm.h:
+
+../include/vki/vki-scnums-arm-darwin.h:
+
+../config.h:
